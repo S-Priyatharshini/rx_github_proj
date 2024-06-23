@@ -1,0 +1,7 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "Propertyzar_Project",
+    "RunConfig": "TestRun"
+  }
+]

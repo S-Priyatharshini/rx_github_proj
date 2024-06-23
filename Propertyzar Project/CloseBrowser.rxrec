@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="a8d4ffdc-e590-4e80-aedd-e66c2e097ee0"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="Propertyzar_Project">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="e4c19dfd-b532-42c6-9681-009f80253677">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="70f0803c-4e6d-412d-822d-91e9f6f5d38f"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='chrome']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="dadf1efa-a991-42d8-accd-ed027a7a4959"
+	name="Propertyzar_ProjectRepository"
+	relativepath="Propertyzar_ProjectRepository.rxrep">
+		<codegen
+		classname="Propertyzar_ProjectRepository"
+		namespace="Propertyzar_Project">
+		</codegen>
+		<rootfolder
+		id="cd3f0cc1-cc79-4f47-97c6-7ec478faac2f"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

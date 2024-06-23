@@ -1,0 +1,91 @@
+﻿<repository
+id="dadf1efa-a991-42d8-accd-ed027a7a4959"
+name="Propertyzar_ProjectRepository">
+	<codegen
+	classname="Propertyzar_ProjectRepository"
+	namespace="Propertyzar_Project">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="cd3f0cc1-cc79-4f47-97c6-7ec478faac2f"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="70f0803c-4e6d-412d-822d-91e9f6f5d38f"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="0950517b-c083-4256-bb71-654cd52ce3ec"
+			name="EmailId"
+			refimgid="137f3e62-5ae9-4d27-9a1a-fb9fa86c04ba"
+			refpath="/dom[@domain='pz-portal.icaniotech.com']//input[#'emailId']"
+			robustPath="/dom[@domain='pz-portal.icaniotech.com']//input[#'emailId']"
+			searchtimeout="30000ms">
+				/dom[@domain='pz-portal.icaniotech.com']//input[#'emailId']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="2857e139-9bef-4785-b86d-01568dcd3259"
+			name="Password"
+			refimgid="96bb0239-4074-42b3-b6de-8453a5355e2b"
+			refpath="/dom[@domain='pz-portal.icaniotech.com']//input[#'password']"
+			robustPath="/dom[@domain='pz-portal.icaniotech.com']//input[#'password']"
+			searchtimeout="30000ms">
+				/dom[@domain='pz-portal.icaniotech.com']//input[#'password']
+			</item>
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="2a2033e7-8e9b-4153-bcf3-a4bf5a532810"
+			name="PasswordLabel"
+			refimgid="7b23f3ec-7586-4186-afbf-5b1d0fb353fb"
+			refpath="/dom[@domain='pz-portal.icaniotech.com']//label[#'password-label']"
+			robustPath="/dom[@domain='pz-portal.icaniotech.com']//label[#'password-label']"
+			searchtimeout="30000ms">
+				/dom[@domain='pz-portal.icaniotech.com']//label[#'password-label']
+			</item>
+			<item
+			addcaps="button,webelement,buttontag"
+			capname="buttontag"
+			id="1269849e-a0c7-4b0e-86ae-a1b470ef416f"
+			name="Login"
+			refimgid="56bbf25b-5452-49db-a852-4ae10aae781f"
+			refpath="/dom[@domain='pz-portal.icaniotech.com']/body/div[1]/div[2]/form/div/div[7]/div/button[@innertext='Login']"
+			robustPath="/dom[@domain='pz-portal.icaniotech.com']//button[@innertext='Login']"
+			searchtimeout="30000ms">
+				/dom[@domain='pz-portal.icaniotech.com']/body/div[1]/?/?/form[@action='https://pz-portal.icaniotech.com/en/auth/login']/div/div[7]/?/?/button[@innertext='Login']
+			</item>
+			<basepath>
+				/dom[@domain='pz-portal.icaniotech.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
